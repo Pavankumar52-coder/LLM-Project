@@ -6,7 +6,7 @@ from flask_cors import CORS
 import cohere
 
 # Initialize the Cohere client with your API key
-cohere_client = cohere.Client('GxLm55qUaAMAKSGzOPpzjlgj0Iaa5yOGDrMAGZvJ')
+cohere_client = cohere.Client('Place your api key like openai/cohere')
 
 
 app = Flask(__name__)
