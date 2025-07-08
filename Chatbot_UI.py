@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 import google.generativeai as genai
 
-st.set_page_config(page_title="AI Mental Health Companion") # UI Page configuartion
+st.set_page_config(page_title="AI-powered Mental Health Companion") # UI Page configuartion
 
 # Backend url
 API_URL = "http://localhost:5000"
